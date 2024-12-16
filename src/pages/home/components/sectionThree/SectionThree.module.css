@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.three{
+    width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.container{
+    width: 90%;
+    display:flex ;
+    justify-content: space-around;
+}
+
+.card{
+    transition: transform 0.5s ease;
+    width: 28%;
+    height: 500px;
+    position: relative;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+  background-size: cover;
+
+  -webkit-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  -moz-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+}
+.cardd{
+    transition: transform 0.5s ease;
+    width: 28%;
+    height: 500px;
+    position: relative;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/children.jpg);
+  background-size: cover;
+
+  -webkit-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  -moz-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+}
+.carddd{
+    transition: transform 0.5s ease;
+    width: 28%;
+    height: 500px;
+    position: relative;
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/men.jpg);
+  background-size: cover;
+
+  -webkit-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  -moz-box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+  box-shadow: inset 10px 10px 0px 195px rgba(0,0,0,0.43);
+}
+
+
+.card:hover{
+    transform:scale(1.1);
+    transition: .4s;
+}
+.cardd:hover{
+    transform:scale(1.1);
+    transition: .4s;
+}
+.carddd:hover{
+    transform:scale(1.1);
+    transition: .4s;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.text{
+   
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  
+}
+.text h1{
+    color: white;
+    
+}
+.text p{
+    color: white;
+ 
+}
